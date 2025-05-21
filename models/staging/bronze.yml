@@ -1,11 +1,12 @@
 version: 2
 
 sources:
-  - name: bronze
+  - name: saleslt
     schema: saleslt
     description: this is the bronze layer of the data lake adventureworks database
     tables:
       - name: customer
+      - name: customeraddress
       - name: address
       - name: product
       - name: productcategory
