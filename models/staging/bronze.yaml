@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: bronze
+    schema: saleslt
+    description: this is the bronze layer of the data lake adventureworks database
+    tables:
+      - name: customer
+      - name: address
+      - name: product
+      - name: productcategory
+      - name: productdescription
+      - name: productmodel
+      - name: salesorderdetail
+      - name: salesorderheader
